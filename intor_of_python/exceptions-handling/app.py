@@ -6,6 +6,8 @@ try :
 except ZeroDivisionError :
     print('age can not br zero')    
 except ValueError:
-    print('invalid value')    
+    print('invalid value') 
+finally :
+    print('code excuted successfully')       
 
     

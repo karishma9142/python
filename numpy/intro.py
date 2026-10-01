@@ -1,0 +1,8 @@
+import numpy as np
+
+array = np.array([1,2,3])
+
+array = array*2
+
+print(type(array))
+print(array)
